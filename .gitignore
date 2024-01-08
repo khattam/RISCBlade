@@ -109,3 +109,8 @@ work/
 *.done
 *.rpt
 *.summary
+
+# Xcode and macOS stuff
+.DS_Store
+*.xcodeproj/
+*.xcworkspace/
