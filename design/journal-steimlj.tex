@@ -5,4 +5,5 @@ Not much happened for this milestone; we decided on some basics.
 Here are some of the reasons for things that didn't make it into the final design document.
 We were considering merging the destination register with the source register for I-type instructions (like how x86 handles \texttt{add} and \texttt{sub}), but I pointed out that makes \texttt{addi reg, zero, imm} nonviable as a pseudoinstruction.
 There are only two ``s'' registers for now because of our limited immediate range making it expensive to handle more than that with a stack pointer.
+With limited instruction set space, we had to only allow two kinds of branches (equal and strictly greater) and let all others be implemented by either reversals, branching over an unconditional jump, or both.
 \end{document}
