@@ -1,0 +1,209 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ALUOUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "ZERO",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ALUOP",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCB[15]",
+					"strict" : false
+				},
+				{
+					"name" : "SRCA[15]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
