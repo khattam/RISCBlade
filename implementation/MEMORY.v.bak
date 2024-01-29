@@ -1,0 +1,32 @@
+
+module MEMORY (
+input [15:0] MEM_ADDRESS, input [15:0] MEM_DATA, input MEMWRITE,
+output reg [15:0] MEM_OUT
+
+reg [15:0] stack [0:255],
+reg [15:0] text [256:32511],
+reg [15:0] data [32512:65535]
+);
+
+initial begin
+	
+	integer ADDRESS = MEM_ADDRESS;
+	integer DATA = MEM_DATA;
+	
+	if(MEMWRITE == 1) begin
+		data[ADDRESS] <= DATA;
+	end
+	
+	if(ADDRESS <= 32511) begin
+		MEM_OUT <= text[ADDRESS];
+	end
+	else begin
+		MEM_OUT <= data[ADDRESS];
+	end
+	
+end
+
+endmodule
+	
+	
+
