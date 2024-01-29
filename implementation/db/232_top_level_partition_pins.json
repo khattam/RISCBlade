@@ -2,7 +2,208 @@
 	"partitions" : [
 		{
 			"name" : "Top",
-			"pins" : []
+			"pins" : [
+				{
+					"name" : "MEM_OUT[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_OUT[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[13]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[0]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[9]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[10]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[11]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_DATA[15]",
+					"strict" : false
+				}
+			]
 		}
 	]
 }
