@@ -68,16 +68,16 @@ CHIP  "232_top_level"  ASSIGNED TO AN: EP4CE6E22C6
 
 Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage : I/O Bank  : User Assignment
 -------------------------------------------------------------------------------------------------------------
-RESERVED_INPUT_WITH_WEAK_PULLUP : 1         :        :                   :         : 1         :                
+MEM_ADDRESS[8]               : 1         : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 2         :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 3         :        :                   :         : 1         :                
+MEM_OUT[15]                  : 3         : output : 2.5 V             :         : 1         : N              
 GND                          : 4         : gnd    :                   :         :           :                
 VCCINT                       : 5         : power  :                   : 1.2V    :           :                
 ~ALTERA_ASDO_DATA1~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 6         : input  : 2.5 V             :         : 1         : N              
-RESERVED_INPUT_WITH_WEAK_PULLUP : 7         :        :                   :         : 1         :                
+MEM_OUT[14]                  : 7         : output : 2.5 V             :         : 1         : N              
 ~ALTERA_FLASH_nCE_nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 8         : input  : 2.5 V             :         : 1         : N              
 nSTATUS                      : 9         :        :                   :         : 1         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 10        :        :                   :         : 1         :                
+MEM_ADDRESS[5]               : 10        : input  : 2.5 V             :         : 1         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 11        :        :                   :         : 1         :                
 ~ALTERA_DCLK~                : 12        : output : 2.5 V             :         : 1         : N              
 ~ALTERA_DATA0~ / RESERVED_INPUT_WITH_WEAK_PULLUP : 13        : input  : 2.5 V             :         : 1         : N              
@@ -95,107 +95,107 @@ GND+                         : 24        :        :                   :         
 GND+                         : 25        :        :                   :         : 2         :                
 VCCIO2                       : 26        : power  :                   : 2.5V    : 2         :                
 GND                          : 27        : gnd    :                   :         :           :                
-SRCB[15]                     : 28        : input  : 2.5 V             :         : 2         : N              
+MEM_OUT[6]                   : 28        : output : 2.5 V             :         : 2         : N              
 VCCINT                       : 29        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 30        :        :                   :         : 2         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 31        :        :                   :         : 2         :                
-ALUOUT[6]                    : 32        : output : 2.5 V             :         : 2         : N              
+MEM_ADDRESS[13]              : 31        : input  : 2.5 V             :         : 2         : N              
+MEM_DATA[10]                 : 32        : input  : 2.5 V             :         : 2         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 33        :        :                   :         : 2         :                
-SRCB[2]                      : 34        : input  : 2.5 V             :         : 2         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 34        :        :                   :         : 2         :                
 VCCA1                        : 35        : power  :                   : 2.5V    :           :                
 GNDA1                        : 36        : gnd    :                   :         :           :                
 VCCD_PLL1                    : 37        : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 38        :        :                   :         : 3         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 39        :        :                   :         : 3         :                
+MEM_OUT[1]                   : 39        : output : 2.5 V             :         : 3         : N              
 VCCIO3                       : 40        : power  :                   : 2.5V    : 3         :                
 GND                          : 41        : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 42        :        :                   :         : 3         :                
-SRCA[12]                     : 43        : input  : 2.5 V             :         : 3         : N              
+MEM_ADDRESS[3]               : 42        : input  : 2.5 V             :         : 3         : N              
+MEM_OUT[5]                   : 43        : output : 2.5 V             :         : 3         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 44        :        :                   :         : 3         :                
 VCCINT                       : 45        : power  :                   : 1.2V    :           :                
-ALUOUT[7]                    : 46        : output : 2.5 V             :         : 3         : N              
+MEM_OUT[8]                   : 46        : output : 2.5 V             :         : 3         : N              
 VCCIO3                       : 47        : power  :                   : 2.5V    : 3         :                
 GND                          : 48        : gnd    :                   :         :           :                
-SRCB[14]                     : 49        : input  : 2.5 V             :         : 3         : N              
-ALUOUT[10]                   : 50        : output : 2.5 V             :         : 3         : N              
-ALUOUT[5]                    : 51        : output : 2.5 V             :         : 3         : N              
-ALUOUT[13]                   : 52        : output : 2.5 V             :         : 3         : N              
-ALUOUT[14]                   : 53        : output : 2.5 V             :         : 3         : N              
-SRCA[1]                      : 54        : input  : 2.5 V             :         : 4         : N              
-SRCA[15]                     : 55        : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 49        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 50        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 51        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 52        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 53        :        :                   :         : 3         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 54        :        :                   :         : 4         :                
+MEM_DATA[6]                  : 55        : input  : 2.5 V             :         : 4         : N              
 VCCIO4                       : 56        : power  :                   : 2.5V    : 4         :                
 GND                          : 57        : gnd    :                   :         :           :                
-ALUOUT[8]                    : 58        : output : 2.5 V             :         : 4         : N              
-SRCB[8]                      : 59        : input  : 2.5 V             :         : 4         : N              
-ALUOUT[9]                    : 60        : output : 2.5 V             :         : 4         : N              
+MEM_OUT[0]                   : 58        : output : 2.5 V             :         : 4         : N              
+MEM_OUT[4]                   : 59        : output : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 60        :        :                   :         : 4         :                
 VCCINT                       : 61        : power  :                   : 1.2V    :           :                
 VCCIO4                       : 62        : power  :                   : 2.5V    : 4         :                
 GND                          : 63        : gnd    :                   :         :           :                
-ZERO                         : 64        : output : 2.5 V             :         : 4         : N              
-ALUOUT[4]                    : 65        : output : 2.5 V             :         : 4         : N              
-SRCA[7]                      : 66        : input  : 2.5 V             :         : 4         : N              
-SRCA[9]                      : 67        : input  : 2.5 V             :         : 4         : N              
-SRCA[14]                     : 68        : input  : 2.5 V             :         : 4         : N              
-SRCA[10]                     : 69        : input  : 2.5 V             :         : 4         : N              
-ALUOUT[15]                   : 70        : output : 2.5 V             :         : 4         : N              
-SRCB[7]                      : 71        : input  : 2.5 V             :         : 4         : N              
-ALUOP                        : 72        : input  : 2.5 V             :         : 4         : N              
-SRCA[0]                      : 73        : input  : 2.5 V             :         : 5         : N              
-SRCA[6]                      : 74        : input  : 2.5 V             :         : 5         : N              
-ALUOUT[2]                    : 75        : output : 2.5 V             :         : 5         : N              
-ALUOUT[12]                   : 76        : output : 2.5 V             :         : 5         : N              
-ALUOUT[11]                   : 77        : output : 2.5 V             :         : 5         : N              
+MEM_ADDRESS[2]               : 64        : input  : 2.5 V             :         : 4         : N              
+MEM_OUT[10]                  : 65        : output : 2.5 V             :         : 4         : N              
+MEM_ADDRESS[7]               : 66        : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 67        :        :                   :         : 4         :                
+MEM_DATA[0]                  : 68        : input  : 2.5 V             :         : 4         : N              
+MEM_OUT[9]                   : 69        : output : 2.5 V             :         : 4         : N              
+MEM_ADDRESS[1]               : 70        : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 71        :        :                   :         : 4         :                
+MEM_DATA[3]                  : 72        : input  : 2.5 V             :         : 4         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 73        :        :                   :         : 5         :                
+MEM_OUT[2]                   : 74        : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 75        :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 76        :        :                   :         : 5         :                
+MEM_ADDRESS[9]               : 77        : input  : 2.5 V             :         : 5         : N              
 VCCINT                       : 78        : power  :                   : 1.2V    :           :                
 GND                          : 79        : gnd    :                   :         :           :                
-SRCA[3]                      : 80        : input  : 2.5 V             :         : 5         : N              
+MEM_DATA[15]                 : 80        : input  : 2.5 V             :         : 5         : N              
 VCCIO5                       : 81        : power  :                   : 2.5V    : 5         :                
 GND                          : 82        : gnd    :                   :         :           :                
-SRCB[3]                      : 83        : input  : 2.5 V             :         : 5         : N              
-SRCB[0]                      : 84        : input  : 2.5 V             :         : 5         : N              
-SRCB[1]                      : 85        : input  : 2.5 V             :         : 5         : N              
-ALUOUT[3]                    : 86        : output : 2.5 V             :         : 5         : N              
-SRCB[9]                      : 87        : input  : 2.5 V             :         : 5         : N              
-SRCA[11]                     : 88        : input  : 2.5 V             :         : 5         : N              
-SRCB[12]                     : 89        : input  : 2.5 V             :         : 5         : N              
-SRCB[13]                     : 90        : input  : 2.5 V             :         : 6         : N              
-SRCA[13]                     : 91        : input  : 2.5 V             :         : 6         : N              
+MEM_OUT[3]                   : 83        : output : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 84        :        :                   :         : 5         :                
+MEM_ADDRESS[4]               : 85        : input  : 2.5 V             :         : 5         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 86        :        :                   :         : 5         :                
+RESERVED_INPUT_WITH_WEAK_PULLUP : 87        :        :                   :         : 5         :                
+MEM_DATA[8]                  : 88        : input  : 2.5 V             :         : 5         : N              
+MEM_DATA[9]                  : 89        : input  : 2.5 V             :         : 5         : N              
+MEM_DATA[11]                 : 90        : input  : 2.5 V             :         : 6         : N              
+MEM_DATA[12]                 : 91        : input  : 2.5 V             :         : 6         : N              
 CONF_DONE                    : 92        :        :                   :         : 6         :                
 VCCIO6                       : 93        : power  :                   : 2.5V    : 6         :                
 MSEL0                        : 94        :        :                   :         : 6         :                
 GND                          : 95        : gnd    :                   :         :           :                
 MSEL1                        : 96        :        :                   :         : 6         :                
 MSEL2                        : 97        :        :                   :         : 6         :                
-SRCA[4]                      : 98        : input  : 2.5 V             :         : 6         : N              
-ALUOUT[1]                    : 99        : output : 2.5 V             :         : 6         : N              
-SRCB[6]                      : 100       : input  : 2.5 V             :         : 6         : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : 98        :        :                   :         : 6         :                
+MEM_DATA[14]                 : 99        : input  : 2.5 V             :         : 6         : N              
+MEM_DATA[1]                  : 100       : input  : 2.5 V             :         : 6         : N              
 ~ALTERA_nCEO~ / RESERVED_OUTPUT_OPEN_DRAIN : 101       : output : 2.5 V             :         : 6         : N              
 VCCINT                       : 102       : power  :                   : 1.2V    :           :                
-SRCB[11]                     : 103       : input  : 2.5 V             :         : 6         : N              
-SRCB[10]                     : 104       : input  : 2.5 V             :         : 6         : N              
+MEM_DATA[2]                  : 103       : input  : 2.5 V             :         : 6         : N              
+MEM_ADDRESS[15]              : 104       : input  : 2.5 V             :         : 6         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 105       :        :                   :         : 6         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 106       :        :                   :         : 6         :                
+MEM_DATA[5]                  : 106       : input  : 2.5 V             :         : 6         : N              
 VCCA2                        : 107       : power  :                   : 2.5V    :           :                
 GNDA2                        : 108       : gnd    :                   :         :           :                
 VCCD_PLL2                    : 109       : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 110       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 111       :        :                   :         : 7         :                
-SRCA[8]                      : 112       : input  : 2.5 V             :         : 7         : N              
-SRCB[5]                      : 113       : input  : 2.5 V             :         : 7         : N              
-SRCB[4]                      : 114       : input  : 2.5 V             :         : 7         : N              
-ALUOUT[0]                    : 115       : output : 2.5 V             :         : 7         : N              
+MEMWRITE                     : 111       : input  : 2.5 V             :         : 7         : N              
+MEM_ADDRESS[10]              : 112       : input  : 2.5 V             :         : 7         : N              
+MEM_ADDRESS[6]               : 113       : input  : 2.5 V             :         : 7         : N              
+MEM_DATA[13]                 : 114       : input  : 2.5 V             :         : 7         : N              
+MEM_ADDRESS[11]              : 115       : input  : 2.5 V             :         : 7         : N              
 VCCINT                       : 116       : power  :                   : 1.2V    :           :                
 VCCIO7                       : 117       : power  :                   : 2.5V    : 7         :                
 GND                          : 118       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 119       :        :                   :         : 7         :                
-SRCA[5]                      : 120       : input  : 2.5 V             :         : 7         : N              
-SRCA[2]                      : 121       : input  : 2.5 V             :         : 7         : N              
+MEM_DATA[7]                  : 120       : input  : 2.5 V             :         : 7         : N              
+MEM_OUT[7]                   : 121       : output : 2.5 V             :         : 7         : N              
 VCCIO7                       : 122       : power  :                   : 2.5V    : 7         :                
 GND                          : 123       : gnd    :                   :         :           :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 124       :        :                   :         : 7         :                
+MEM_DATA[4]                  : 124       : input  : 2.5 V             :         : 7         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 125       :        :                   :         : 7         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 126       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 127       :        :                   :         : 7         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 128       :        :                   :         : 8         :                
+MEM_ADDRESS[14]              : 127       : input  : 2.5 V             :         : 7         : N              
+MEM_OUT[11]                  : 128       : output : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 129       :        :                   :         : 8         :                
 VCCIO8                       : 130       : power  :                   : 2.5V    : 8         :                
 GND                          : 131       : gnd    :                   :         :           :                
@@ -203,13 +203,13 @@ RESERVED_INPUT_WITH_WEAK_PULLUP : 132       :        :                   :      
 RESERVED_INPUT_WITH_WEAK_PULLUP : 133       :        :                   :         : 8         :                
 VCCINT                       : 134       : power  :                   : 1.2V    :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 135       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 136       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 137       :        :                   :         : 8         :                
+MEM_OUT[13]                  : 136       : output : 2.5 V             :         : 8         : N              
+MEM_ADDRESS[12]              : 137       : input  : 2.5 V             :         : 8         : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : 138       :        :                   :         : 8         :                
 VCCIO8                       : 139       : power  :                   : 2.5V    : 8         :                
 GND                          : 140       : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 141       :        :                   :         : 8         :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : 142       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 143       :        :                   :         : 8         :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : 144       :        :                   :         : 8         :                
+MEM_OUT[12]                  : 143       : output : 2.5 V             :         : 8         : N              
+MEM_ADDRESS[0]               : 144       : input  : 2.5 V             :         : 8         : N              
 GND                          : EPAD      :        :                   :         :           :                
