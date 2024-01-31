@@ -68,27 +68,23 @@
 					"strict" : false
 				},
 				{
-					"name" : "MEM_ADDRESS[13]",
-					"strict" : false
-				},
-				{
-					"name" : "CLK",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[14]",
-					"strict" : false
-				},
-				{
-					"name" : "MEMWRITE",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[15]",
-					"strict" : false
-				},
-				{
 					"name" : "MEM_DATA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RST",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[8]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[7]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[6]",
 					"strict" : false
 				},
 				{
@@ -97,34 +93,6 @@
 				},
 				{
 					"name" : "MEM_ADDRESS[1]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[2]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[3]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[4]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[5]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[6]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[7]",
-					"strict" : false
-				},
-				{
-					"name" : "MEM_ADDRESS[8]",
 					"strict" : false
 				},
 				{
@@ -141,6 +109,42 @@
 				},
 				{
 					"name" : "MEM_ADDRESS[12]",
+					"strict" : false
+				},
+				{
+					"name" : "MEMWRITE",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[13]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[14]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[15]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[3]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[4]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[5]",
+					"strict" : false
+				},
+				{
+					"name" : "MEM_ADDRESS[2]",
+					"strict" : false
+				},
+				{
+					"name" : "CLK",
 					"strict" : false
 				},
 				{

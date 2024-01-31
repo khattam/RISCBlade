@@ -1,0 +1,21 @@
+module registerfile(
+    input [3:0]  RS1,
+	 input [3:0]  RS2,
+	 input [3:0]  RD,
+	 input [15:0] REGDATA,
+	 input		  REGWRITE,
+	 input		  CLK,
+    output reg [15:0] SRCA,
+    output reg [15:0] SRCB
+    );
+
+	reg [15:0] RF [15:0];
+	
+	assign Data1 = RF[Read1];
+	assign Data2 = RF[Read2];
+	
+	always begin
+		@(posedge CLK) if (RegWrite) RF[Write] <= WriteData;
+	end
+
+endmodule

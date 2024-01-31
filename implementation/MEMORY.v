@@ -17,6 +17,9 @@ integer i;
 			end
 		end
 		if (MEMWRITE) begin
+			if(MEM_ADDRESS > 499) begin //this might not work, just comment this block out if it breaks
+				MEM_ADDRESS = 499;
+			end
 			mem[MEM_ADDRESS] = MEM_DATA;
 		end
 		MEM_OUT <= mem[MEM_ADDRESS];
