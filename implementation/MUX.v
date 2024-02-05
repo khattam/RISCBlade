@@ -1,10 +1,10 @@
 
 module MUX(
-	input [15:0] SRCA, input[15:0] SRCB, input select,
-	output reg [15:0] Q
+	input [15:0] A, input[15:0] B, input select,
+	output [15:0] MUX_OUT
 );
 
 
-assign Q = (select == 0 ) ? SRCA : SRCB;
+assign MUX_OUT = (select == 0 ) ? A : B;
 
 endmodule
