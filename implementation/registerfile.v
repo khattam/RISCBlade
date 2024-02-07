@@ -1,3 +1,5 @@
+`timescale 1ns/1ps
+
 module registerfile(
     input [3:0]  RS1,
 	 input [3:0]  RS2,
@@ -9,13 +11,12 @@ module registerfile(
     output reg [15:0] REG_B
     );
 
-	reg [15:0] RF [15:0];
-	
-	assign REG_A = RF[RS1];
-	assign REG_B = RF[RS2];
+	reg [15:0] RF [0:15];
 	
 	always begin
-		@(posedge CLK) if (REGWRITE) RF[RD] <= REGWRITE;
+		REG_A <= RF[RS1];
+		REG_B <= RF[RS2];
+		@(posedge CLK) if (REGWRITE) RF[RD] <= REGDATA;
 	end
 
 endmodule
