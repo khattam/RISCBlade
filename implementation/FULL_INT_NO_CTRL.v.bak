@@ -1,0 +1,47 @@
+module FULL_INT_NO_CTRL;
+
+
+
+
+
+
+
+
+
+
+ProgramCounter pc_test (
+        .clock(CLOCK), 
+        .reset(PC_RESET), 
+        .jump_addr(ALU_OUT_TEST), 
+        .jump_en(PC_EN), 
+        .pc(PC_OUT)
+    );
+ALU ALU_inst
+(
+	.SRCA(PC_OUT) ,	// input [15:0] SRCA_sig
+	.SRCB(SRCB_TEST) ,	// input [15:0] SRCB_sig
+	.ALUOP(ALU_OP) ,	// input  ALUOP_sig
+	.ALUOUT(ALU_OUT_TEST) ,	// output [15:0] ALUOUT_sig
+	.ZERO(ALU_ZERO_FLAG) 	// output  ZERO_sig
+);
+registerfile registerfile_inst
+(
+	.RS1(INPUT_ADDR_A) ,	// input [3:0] RS1_sig
+	.RS2(INPUT_ADDR_B) ,	// input [3:0] RS2_sig
+	.RD(DEST_REG) ,	// input [3:0] RD_sig
+	.REGDATA(REG_DATA) ,	// input [15:0] REGDATA_sig
+	.REGWRITE(REGWRITE_TEST) ,	// input  REGWRITE_sig
+	.CLK(CLOCK) ,	// input  CLK_sig
+	.REG_A(REG_A_T) ,	// output [15:0] REG_A_sig
+	.REG_B(REG_B_T) 	// output [15:0] REG_B_sig
+);
+MEMORY MEMORY_inst
+(
+	.MEM_ADDRESS(PC_OUT) ,	// input [15:0] MEM_ADDRESS_sig
+	.MEM_DATA(ALU_OUT_TEST) ,	// input [15:0] MEM_DATA_sig
+	.MEMWRITE(MEM_WRITE) ,	// input  MEMWRITE_sig
+	.CLK(CLOCK) ,	// input  CLK_sig
+	.MEM_OUT(MEM_OUT_TEST) 	// output [15:0] MEM_OUT_sig
+);
+
+
