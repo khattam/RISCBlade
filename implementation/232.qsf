@@ -18,14 +18,14 @@
 #
 # Quartus Prime
 # Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-# Date created = 20:43:20  January 22, 2024
+# Date created = 13:21:27  February 09, 2024
 #
 # -------------------------------------------------------------------------- #
 #
 # Notes:
 #
 # 1) The default values for assignments are stored in the file:
-#		232_top_level_assignment_defaults.qdf
+#		232_assignment_defaults.qdf
 #    If this file doesn't exist, see file:
 #		assignment_defaults.qdf
 #
@@ -38,30 +38,21 @@
 
 set_global_assignment -name FAMILY "Cyclone IV E"
 set_global_assignment -name DEVICE AUTO
-set_global_assignment -name TOP_LEVEL_ENTITY MUX
+set_global_assignment -name TOP_LEVEL_ENTITY MUX_4_1
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
-set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:43:20  JANUARY 22, 2024"
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "13:21:27  FEBRUARY 09, 2024"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
-set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
-set_global_assignment -name VERILOG_CONSTANT_LOOP_LIMIT 70000
-set_global_assignment -name VERILOG_FILE MUX_TEST.v
-set_global_assignment -name VERILOG_FILE MUX.v
-set_global_assignment -name VERILOG_FILE registerfile.v
-set_global_assignment -name VERILOG_FILE "Program Counter.v"
-set_global_assignment -name VERILOG_FILE PCTest.v
-set_global_assignment -name VERILOG_FILE ALU_TEST.v
-set_global_assignment -name VERILOG_FILE ALU.v
-set_global_assignment -name VERILOG_FILE 232_top_level.v
-set_global_assignment -name VERILOG_FILE MEMORY.v
-set_global_assignment -name VERILOG_FILE MEM_TEST.v
-set_global_assignment -name VERILOG_FILE PC_INC_TEST.v
-set_global_assignment -name VERILOG_FILE PC_MEM_ALU_TEST.v
-set_global_assignment -name VERILOG_FILE REG_TEST.v
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
-set_global_assignment -name VERILOG_FILE FULL_INT_NO_CTRL.v
+set_global_assignment -name VERILOG_FILE MEMORY.v
+set_global_assignment -name VERILOG_FILE MUX.v
+set_global_assignment -name VERILOG_FILE "Program Counter.v"
 set_global_assignment -name VERILOG_FILE MUX_4_1.v
-set_global_assignment -name VERILOG_FILE INSTRUCTION_REGISTER.v
-set_global_assignment -name VERILOG_FILE GENERIC_REGISTER.v
+set_global_assignment -name VERILOG_FILE ALU.v
+set_global_assignment -name VERILOG_FILE PCALUSRCBMUX.v
+set_global_assignment -name VERILOG_FILE PC_ALU_BOTH_ALU_MUX.v
+set_global_assignment -name VERILOG_FILE PC_ALU_MEMORY_WITH_MUX.v
+set_global_assignment -name VERILOG_FILE read_from_text.v
+set_global_assignment -name VERILOG_FILE PC_ALU_MEMORY__REGISTER_WITH_MUX.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

@@ -8,6 +8,10 @@ input CLK,
 output [15:0] MEM_OUT
 );
 
+initial begin
+	$readmemh("memory.txt", mem);
+end
+
 reg [15:0] mem [0:499];
 	always @ (posedge CLK) begin
 		if (MEMWRITE) begin
@@ -15,4 +19,5 @@ reg [15:0] mem [0:499];
 		end
 	end
 	assign MEM_OUT = mem[MEM_ADDRESS];
+
 endmodule
