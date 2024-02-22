@@ -12,6 +12,12 @@ module registerfile(
     );
 
 	reg [15:0] RF [0:15];
+	integer i;
+	initial begin
+		for(i = 0; i < 16; i = i + 1) begin
+			RF[i] <= 0;
+		end
+	end
 	
 	always begin
 		REG_A <= RF[RS1];
