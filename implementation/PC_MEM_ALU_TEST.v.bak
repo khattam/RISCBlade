@@ -1,0 +1,38 @@
+`timescale 1ns/1ps
+module PC_MEM_ALU_TEST;
+
+reg PC_EN;
+reg ALU_OP;
+reg MEM_WRITE;
+reg SRC_B_TEST;
+reg CLOCK;
+reg PC_RESET;
+wire [15:0] MEM_OUT_TEST;
+wire ALU_ZERO_FLAG
+wire [15:0] ALU_OUT_TEST;
+wire [15:0] PC_OUT;
+
+
+ProgramCounter pc_test (
+        .clock(CLOCK), 
+        .reset(PC_RESET), 
+        .jump_addr(ALU_OUT_TEST), 
+        .jump_en(PC_EN), 
+        .pc(PC_OUT)
+    );
+ALU ALU_inst
+(
+	.SRCA(PC_OUT) ,	// input [15:0] SRCA_sig
+	.SRCB(SRCB_TEST) ,	// input [15:0] SRCB_sig
+	.ALUOP(ALU_OP) ,	// input  ALUOP_sig
+	.ALUOUT(ALU_OUT_TEST) ,	// output [15:0] ALUOUT_sig
+	.ZERO(ALU_ZERO_FLAG) 	// output  ZERO_sig
+);
+MEMORY MEMORY_inst
+(
+	.MEM_ADDRESS(PC_OUT) ,	// input [15:0] MEM_ADDRESS_sig
+	.MEM_DATA(ALU_OUT_TEST) ,	// input [15:0] MEM_DATA_sig
+	.MEMWRITE(MEM_WRITE) ,	// input  MEMWRITE_sig
+	.CLK(CLOCK) ,	// input  CLK_sig
+	.MEM_OUT(MEM_OUT_TEST) 	// output [15:0] MEM_OUT_sig
+);

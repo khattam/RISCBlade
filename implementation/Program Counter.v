@@ -13,8 +13,5 @@ module ProgramCounter(
         else if (jump_en) begin
             pc <= jump_addr; // Jump to specific address
         end
-        else begin
-            pc <= pc + 2; // Increment PC by 2
-        end
     end
 endmodule

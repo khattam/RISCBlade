@@ -1,0 +1,13 @@
+module INSTRUCTION_REGISTER(
+    input clock,
+		 input [15:0] INST_IN,
+		 input IREN,
+		 output reg [15:0] INST_OUT
+);
+
+    always @(posedge clock or posedge reset) begin
+        if (IREN) begin
+            pc <= jump_addr; // Jump to specific address
+        end
+    end
+endmodule

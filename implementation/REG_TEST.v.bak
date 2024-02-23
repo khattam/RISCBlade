@@ -1,0 +1,9 @@
+`timescale 1ns/1ps
+
+module REG_TEST;
+reg [3:0] INPUT_ADDR_A;
+reg [3:0] INPUT_ADDR_B;
+reg [3:0] DEST_REG;
+reg REGWRITE_TEST;
+reg [15:0] REG_DATA;
+
